@@ -223,7 +223,8 @@
             that.fixPosition();
 
             if (that.el.val().length >= that.options.minChars) {
-                that.onValueChange();
+                //input girlmeden auto complete başlamasin diye iptal edildi
+                //that.onValueChange();
             }
         },
 
